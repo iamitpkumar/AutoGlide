@@ -2,6 +2,7 @@
   position: relative;
   overflow: hidden;
   width: 100%;
+  margin:20px 0;
 }
 
 .autoglide-content {
