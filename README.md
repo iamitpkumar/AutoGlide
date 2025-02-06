@@ -14,6 +14,8 @@ AutoGlide is a lightweight and customizable infinite scrolling plugin designed b
 
 ✅ jQuery-powered for easy integration
 
+✅ Compatible with all popular frameworks like - Bootstrap 5, Tailwind CSS, Materialize, Foundation, Bulma, Metro 4, Spectre.css, Ulkit, etc.
+
 # 🎨 Customization
 
 You can adjust the scrolling settings using `data-attributes`:
