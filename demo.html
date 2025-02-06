@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/autoglide.css" rel="stylesheet"/>
+</head>
+<body>
+
+ 
+    <!-- towards left -->
+    <div class="autoglide" 
+      data-direction="left" 
+      data-speed="30" 
+      data-gap="20"
+      data-width="350"
+      data-height="250"
+      data-sm-width="200"
+      data-sm-height="100"
+      data-md-width="300"
+      data-md-height="200"
+      data-lg-width="350"
+      data-lg-height="250"
+      data-xl-width="400"
+      data-xl-height="300">
+      <div class="autoglide-content">
+        <div class="pse-item"><img src="img/1.jpg" alt="Scroll image"><span>1</span></div>
+        <div class="pse-item"><img src="img/2.jpg" alt="Scroll image"><span>2</span></div>
+        <div class="pse-item"><img src="img/3.jpg" alt="Scroll image"><span>3</span></div>
+        <div class="pse-item"><img src="img/4.jpg" alt="Scroll image"><span>4</span></div>
+        <div class="pse-item"><img src="img/5.jpg" alt="Scroll image"><span>5</span></div>
+        <div class="pse-item"><img src="img/6.jpg" alt="Scroll image"><span>6</span></div>
+        <div class="pse-item"><img src="img/7.jpg" alt="Scroll image"><span>7</span></div>
+        <div class="pse-item"><img src="img/8.jpg" alt="Scroll image"><span>8</span></div>
+        <div class="pse-item"><img src="img/9.jpg" alt="Scroll image"><span>9</span></div>
+        <div class="pse-item"><img src="img/10.jpg" alt="Scroll image"><span>10</span></div>
+      </div>
+    </div>
+
+  <!-- towards right -->
+  <div class="autoglide" 
+  data-direction="right" 
+  data-speed="30" 
+  data-gap="20"
+  data-width="350"
+  data-height="250"
+  data-sm-width="200"
+  data-sm-height="100"
+  data-md-width="300"
+  data-md-height="200"
+  data-lg-width="350"
+  data-lg-height="250"
+  data-xl-width="400"
+  data-xl-height="300">
+  <div class="autoglide-content">
+    <div class="pse-item"><img src="img/1.jpg" alt="Scroll image"><span>1</span></div>
+    <div class="pse-item"><img src="img/2.jpg" alt="Scroll image"><span>2</span></div>
+    <div class="pse-item"><img src="img/3.jpg" alt="Scroll image"><span>3</span></div>
+    <div class="pse-item"><img src="img/4.jpg" alt="Scroll image"><span>4</span></div>
+    <div class="pse-item"><img src="img/5.jpg" alt="Scroll image"><span>5</span></div>
+    <div class="pse-item"><img src="img/6.jpg" alt="Scroll image"><span>6</span></div>
+    <div class="pse-item"><img src="img/7.jpg" alt="Scroll image"><span>7</span></div>
+    <div class="pse-item"><img src="img/8.jpg" alt="Scroll image"><span>8</span></div>
+    <div class="pse-item"><img src="img/9.jpg" alt="Scroll image"><span>9</span></div>
+    <div class="pse-item"><img src="img/10.jpg" alt="Scroll image"><span>10</span></div>
+  </div>
+</div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="src/autoglide.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.autoglide').psEndlessScroll();
+        });
+    </script>
+</body>
+</html>
