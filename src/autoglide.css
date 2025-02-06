@@ -1,0 +1,55 @@
+.autoglide {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.autoglide-content {
+  display: flex;
+  position: relative;
+}
+
+.autoglide[data-direction="left"] .autoglide-content,
+.autoglide[data-direction="right"] .autoglide-content {
+  flex-direction: row;
+}
+
+.autoglide[data-direction="top"] .autoglide-content,
+.autoglide[data-direction="bottom"] .autoglide-content {
+  flex-direction: column;
+}
+
+.autoglide-content img {
+  object-fit: cover;
+  display: block;
+  flex-shrink: 0; /* Prevent images from shrinking */
+}
+
+/* Default responsive styles */
+@media screen and (max-width: 767px) {
+  .autoglide:not([data-width]):not([data-sm-width]) .autoglide-content img {
+      width: 250px;
+      height: 150px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .autoglide:not([data-width]):not([data-md-width]) .autoglide-content img {
+      width: 300px;
+      height: 200px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .autoglide:not([data-width]):not([data-lg-width]) .autoglide-content img {
+      width: 350px;
+      height: 250px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .autoglide:not([data-width]):not([data-xl-width]) .autoglide-content img {
+      width: 400px;
+      height: 300px;
+  }
+}
