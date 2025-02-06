@@ -3,10 +3,15 @@ AutoGlide is a lightweight and customizable infinite scrolling plugin designed b
 
 # Features
 ✅ Smooth, endless scrolling (left, right, up, down)
+
 ✅ Fully responsive with custom breakpoints
+
 ✅ Customizable speed, gap, and direction
+
 ✅ Pause on hover
+
 ✅ Works with any HTML content (images, text, etc.)
+
 ✅ jQuery-powered for easy integration
 
 # 🎨 Customization
